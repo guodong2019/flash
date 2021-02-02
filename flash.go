@@ -1,6 +1,6 @@
 package flash
 
-import "github.com/dav009/flash/trie"
+import "github.com/guodong2019/flash/trie"
 
 func extractKeywords(t *trie.Trie, sentence string) []string {
 	matches := make([]string, 0)
